@@ -25,11 +25,17 @@ body {
   margin: 0 auto;
 }
 
+.container-wide {
+  max-width: 1400px;
+  padding: 0;
+  margin: 0 auto;
+}
+
 img {
-  max-width: 100%;
   width: 100%;
   height: auto;
   display: block;
+  object-fit: cover;
 }
 
 button {
@@ -44,8 +50,8 @@ button {
 /* =========================== */
 
 .header__logo {
-  width: 126.89px;
-  height: 21.42px;
+  width: 125px;
+  height: 20px;
 }
 
 .header {
@@ -129,7 +135,12 @@ button {
 }
 
 .intro__image-box {
+  background-image: url('../resources/images/intro/intro-main.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
+  width: 100%;
+  height: 500px;
 }
 
 .intro__image-box::before {
@@ -242,6 +253,8 @@ button {
 }
 
 .projects-card__image {
+  width: 100%;
+  height: 450px;
   margin-bottom: 20px;
 }
 
@@ -267,7 +280,7 @@ button {
 
 .services {
   padding-top: 150px;
-  padding-bottom: 142px;
+  padding-bottom: 150px;
   background-color: #121212;
 }
 
@@ -280,10 +293,12 @@ button {
 }
 
 .serviсes-card__image {
+  width: 100%;
+  height: 270px;
   margin-bottom: 20px;
 }
 
-.serviсes__card {
+.serviсes__card:not(:last-child) {
   margin-bottom: 55px;
 }
 
