@@ -25,11 +25,6 @@ body {
   margin: 0 auto;
 }
 
-.container-wide {
-  max-width: 1400px;
-  padding: 0;
-  margin: 0 auto;
-}
 
 img {
   width: 100%;
@@ -43,6 +38,10 @@ button {
   background: none;
   border: none;
   font-family: inherit;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.03em;
 }
 
 /* ========================== */
@@ -76,7 +75,6 @@ button {
   position: relative;
   font-size: 18px;
   line-height: 24.59px;
-  letter-spacing: -3%;
   font-family: 'Manrope', sans-serif;
   text-transform: uppercase;
   text-decoration: none;
@@ -115,7 +113,7 @@ button {
 }
 
 .nav-menu__link + .nav-menu__link {
-  margin-left: 60px;
+  margin-left: 53px;
 }
 
 /* ========================== */
@@ -123,7 +121,7 @@ button {
 /* =========================== */
 
 .intro {
-  margin-top: 173.172px;
+  margin-top: 127px;
   margin-bottom: 155px;
 }
 
@@ -181,17 +179,18 @@ button {
   font-size: 18px;
   line-height: 24.59px;
   text-transform: uppercase;
-  margin-bottom: 41px;
+  margin-bottom: 32px;
   color: #121212;
 }
 
 .about__description {
+  letter-spacing: -0.03em;
   color: #121212;
   font-size: 45px;
   line-height: 61.47px;
   text-align: left;
-  max-width: 1120px;
-  margin-bottom: 30px;
+  max-width: 1050px;
+  margin-bottom: 26px;
 }
 
 .about__btn {
@@ -202,6 +201,7 @@ button {
   font-size: 20px;
   line-height: 27.32px;
   color: #fff;
+  letter-spacing: -0.03em;
   transition: background-color .3s ease-in, color .3s ease-in, border .3s ease-in;
 }
 
@@ -224,14 +224,14 @@ button {
   font-size: 18px;
   line-height: 24.59px;
   color: #121212;
-  margin-bottom: 29px;
+  margin-bottom: 32px;
 }
 
 .projects-card__title {
   font-size: 30px;
   line-height: 40.98px;
   color: #121212;
-  margin-bottom: 24px;
+  margin-bottom: 14px;
 }
 
 .projects-card {
@@ -244,6 +244,7 @@ button {
   line-height: 27.32px;
   text-decoration: none;
 
+  letter-spacing: -0.03em;
   transition: color .3s ease-in;
 }
 
@@ -255,19 +256,20 @@ button {
 .projects-card__image {
   width: 100%;
   height: 450px;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .projects__btn {
   display: block;
   width: 100%;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 56px;
+  padding-bottom: 56px;
   border: 1px solid #AD1818;
   color: #AD1818;
   font-size: 30px;
   line-height: 40.98px;
   border-radius: 5px;
+  letter-spacing: -0.03em;
   transition: background-color .3s ease-in, color .3s ease-in;
 }
 
@@ -310,11 +312,21 @@ button {
 
 /* PROJECT-EXAMPLE */
 
-.project-example__image-box {
+.project-example {
   position: relative;
+  background-image: url('../resources/images/project-example/img.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 717px;
 }
 
-.project-example__image-box::before {
+.project-example__text-box {
+  display: flex;
+  height: 717px;
+}
+
+.project-example::before {
   content: '';
   position: absolute;
   left: 0;
@@ -325,20 +337,23 @@ button {
 }
 
 .project-example__title {
-  position: absolute;
-  left: 120px;
-  bottom: 60px;
-  max-width: 450px;
+  position: relative;
+  z-index: 10000;
+  margin-top: auto;
+  margin-bottom: 60px;
+  max-width: 443px;
   font-size: 30px;
+  letter-spacing: -0.03em;
   line-height: 40.98px;
   color: #fff;
 }
 
+
 /* CONTACTS */
 
 .contacts {
-  padding-top: 190px;
-  padding-bottom: 151px;
+  padding-top: 185px;
+  padding-bottom: 160px;
   background-color: #fff;
 }
 
@@ -348,13 +363,14 @@ button {
   font-size: 18px;
   line-height: 24.59px;
   color: #121212;
-  margin-bottom: 42px;
+  margin-bottom: 32px;
+  letter-spacing: -0.03em;
 }
 
 .contacts__title::before {
   content: '';
   position: absolute;
-  left: 0;
+  left: -5px;
   top: -37px;
   width: 24px;
   height: 24px;
@@ -362,7 +378,8 @@ button {
 }
 
 .contacts__phone {
-  margin-bottom: 42px;
+  letter-spacing: -0.07em;
+  margin-bottom: 30px;
 }
 
 .contacts__phone-link {
@@ -372,6 +389,7 @@ button {
   text-decoration: none;
   opacity: 1;
   transition: opacity .3s ease-in;
+  letter-spacing: -0.03em;
 }
 
 .contacts__phone-link:hover {
@@ -426,10 +444,11 @@ button {
   opacity: 1;
   transition: opacity .3s ease-in;
   text-decoration: none;
+  letter-spacing: -0.03em;
 }
 
 .footer-navigation__menu-item + .footer-navigation__menu-item {
-  margin-left: 50px;
+  margin-left: 53px;
 }
 
 .footer-navigation__menu-item:hover {
@@ -437,7 +456,8 @@ button {
 }
 
 .footer__footer-navigation {
-  margin-bottom: 85px;
+  margin-bottom: 90px;
+  margin-left: -12px;
 }
 
 .footer-navigation__menu-item.active {
@@ -445,6 +465,7 @@ button {
 }
 
 .footer__copy-text {
+  letter-spacing: -0.03em;
   font-size: 20px;
   color: #fff;
   opacity: 0.5;
