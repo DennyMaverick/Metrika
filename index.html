@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header hide">
       <div class="header__inner container">
         <div class="header__logo">
           <img src="./resources/images/logo/logo.png" alt="logo" />
@@ -30,7 +30,7 @@
         </nav>
       </div>
     </header>
-    <main>
+    <main class="main">
       <section class="intro">
         <div class="container">
           <h1 class="intro__title">
@@ -63,6 +63,7 @@
             <li class="projects__card projects-card">
               <div class="projects-card__image">
                 <img
+                  class="projects-card__picture"
                   src="./resources/images/projects/project-1.png"
                   alt="Project image"
                 />
@@ -75,6 +76,7 @@
             <li class="projects__card projects-card">
               <div class="projects-card__image">
                 <img
+                  class="projects-card__picture"
                   src="./resources/images/projects/project-2.png"
                   alt="Project image"
                 />
@@ -87,6 +89,7 @@
             <li class="projects__card projects-card">
               <div class="projects-card__image">
                 <img
+                  class="projects-card__picture"
                   src="./resources/images/projects/project-3.png"
                   alt="Project image"
                 />
@@ -100,7 +103,7 @@
           <button class="projects__btn">Смотреть все проекты</button>
         </div>
       </section>
-      <section class="services" id="services">
+      <section class="services hide" id="services">
         <div class="container">
           <h2 class="services__title">Услуги</h2>
 
@@ -153,16 +156,16 @@
           </ul>
         </div>
       </section>
-      <section class="project-example">
+      <section class="project-example hide">
         <div class="container">
           <div class="project-example__text-box">
             <h2 class="project-example__title">
-            Проект  Двухкомнатной квартиры в ЖК Лесной Пейзаж
-          </h2>
+              Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж
+            </h2>
           </div>
         </div>
       </section>
-      <section class="contacts" id="contacts">
+      <section class="contacts hide" id="contacts">
         <div class="contacts__inner container">
           <h2 class="contacts__title">Контакты</h2>
           <div class="contacts__phone">
@@ -179,7 +182,7 @@
       </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer hide">
       <div class="footer__inner container">
         <nav class="footer__footer-navigation">
           <a class="footer-navigation__menu-item active" href="#about">О нас</a>
