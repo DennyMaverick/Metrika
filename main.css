@@ -1,0 +1,45 @@
+
+/* ==== RESET STYLES ==== */
+
+@import './styles/reset.css';
+
+/* ==== HELPERS ==== */
+
+@import './styles/helpers.css';
+
+/* ==== BASIC STYLES ==== */
+
+@import './styles/basic.css';
+
+/* HEADER */
+
+@import './styles/header.css';
+
+/* INTRO */
+
+@import './styles/intro.css';
+
+/* ABOUT */
+
+@import './styles/about.css';
+
+/* PROJECTS */
+
+@import './styles/projects.css';
+
+/* SERVICES */
+
+@import './styles/services.css';
+
+/* PROJECT-EXAMPLE */
+
+@import './styles/project-example.css';
+
+/* CONTACTS */
+
+@import './styles/contacts.css';
+
+/* FOOTER */
+
+@import './styles/footer.css';
+

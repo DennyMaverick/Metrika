@@ -1,0 +1,71 @@
+/* CONTACTS */
+
+.contacts {
+  padding-top: 185px;
+  padding-bottom: 160px;
+  background-color: #fff;
+}
+
+.contacts__title {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 24.59px;
+  color: #121212;
+  margin-bottom: 32px;
+  letter-spacing: -0.03em;
+}
+
+.contacts__title::before {
+  content: '';
+  position: absolute;
+  left: -5px;
+  top: -37px;
+  width: 24px;
+  height: 24px;
+  background-image: url('../resources/images/icons/phone.svg');
+}
+
+.contacts__phone {
+  letter-spacing: -0.07em;
+  margin-bottom: 30px;
+}
+
+.contacts__phone-link {
+  font-size: 60px;
+  line-height: 60px;
+  color: #121212;
+  text-decoration: none;
+  opacity: 1;
+  transition: opacity 0.3s ease-in;
+  letter-spacing: -0.03em;
+}
+
+.contacts__phone-link:hover {
+  opacity: 0.7;
+}
+
+.contacts__email-link {
+  position: relative;
+  font-size: 60px;
+  line-height: 60px;
+  color: #121212;
+  opacity: 0.5;
+  text-decoration: none;
+  transition: color 0.3s ease-in, opacity 0.3s ease-in;
+}
+
+.contacts__email-link:hover {
+  opacity: 0.9;
+}
+
+.contacts__email-link::before {
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background-color: #121212;
+  opacity: 0.5;
+}

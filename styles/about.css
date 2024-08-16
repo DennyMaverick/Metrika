@@ -1,0 +1,75 @@
+/* ========================== */
+/* ABOUT */
+/* =========================== */
+
+.about {
+  margin-bottom: 150px;
+}
+
+.about__title {
+  font-size: 18px;
+  line-height: 24.59px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+  color: #121212;
+}
+
+.about__description {
+  letter-spacing: -0.03em;
+  color: #121212;
+  font-size: 45px;
+  line-height: 61.47px;
+  text-align: left;
+  max-width: 1050px;
+  margin-bottom: 26px;
+}
+
+.about__btn {
+  border: 1px solid transparent;
+  background: #ad1818;
+  border-radius: 5px;
+  padding: 20px 40px;
+  font-size: 20px;
+  line-height: 27.32px;
+  color: #fff;
+  letter-spacing: -0.03em;
+  transition: background-color 0.3s ease-in, color 0.3s ease-in,
+    border 0.3s ease-in;
+}
+
+.about__btn:hover {
+  border: 1px solid #ad1818;
+  background-color: #fff;
+  color: #ad1818;
+}
+
+/* ======== Media queries ======== */
+
+@media (max-width: 1199px) {
+
+  .about {
+    margin-bottom: 120px;
+  }
+
+  .about__description {
+    max-width: 693px;
+    font-size: 35px;
+    line-height: 47px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about__title {
+    font-size: 14px;
+  }
+
+  .about__description {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .about__btn {
+    font-size: 16px;
+    padding: 14px 27px;
+  }
+}
