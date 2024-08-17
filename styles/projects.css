@@ -41,12 +41,13 @@
 
 .projects-card__image {
   width: 100%;
-  margin-bottom: 16px;
+
+  object-position: 20% 50%;
 }
 
 .projects-card__picture {
-  min-height: 450px;
-  object-position: 20%;
+  margin-bottom: 16px;
+  height: 450px;
 }
 
 .projects__btn {
@@ -99,13 +100,13 @@
     font-size: 16px;
   }
 
-  .projects-card__image {
-    margin-bottom: 20px;
-  }
 
   .projects-card__picture {
-  min-height: 250px;
+    margin-bottom: 20px;
+    height: 250px;
+    object-position: left;
 }
+
 
 .projects__card {
     margin-bottom: 50px;
