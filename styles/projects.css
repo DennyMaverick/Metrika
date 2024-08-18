@@ -73,6 +73,9 @@
 
 @media (max-width: 1199px) {
 
+  .projects {
+    margin-bottom: 100px;
+  }
   .projects__card {
     margin-bottom: 80px;
   }
@@ -83,6 +86,9 @@
 }
 
 @media (max-width: 767px) {
+  .projects {
+    margin-bottom: 80px;
+  }
 
   .projects__title {
     font-size: 14px;
@@ -100,15 +106,13 @@
     font-size: 16px;
   }
 
-
   .projects-card__picture {
     margin-bottom: 20px;
     height: 250px;
     object-position: left;
-}
+  }
 
-
-.projects__card {
+  .projects__card {
     margin-bottom: 50px;
   }
 
@@ -120,6 +124,12 @@
     font-size: 22px;
     line-height: 30px;
     padding: 37px 37px;
+  }
+}
+
+@media (max-width: 767px) {
+  .projects__btn {
+    font-size: 17px;
   }
 
 }

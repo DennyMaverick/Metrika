@@ -44,6 +44,15 @@ h3 {
   letter-spacing: -0.03em;
 }
 
+.rows {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  width: calc(50% - 25px);
+}
+
 @media (max-width: 1199px) {
   .container {
     padding-left: 17px;

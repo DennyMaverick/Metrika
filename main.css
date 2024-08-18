@@ -31,6 +31,10 @@
 
 @import './styles/services.css';
 
+/* REVIEWS */
+
+@import './styles/reviews.css';
+
 /* PROJECT-EXAMPLE */
 
 @import './styles/project-example.css';
