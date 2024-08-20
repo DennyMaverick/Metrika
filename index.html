@@ -237,10 +237,56 @@
           </ul>
         </div>
       </section>
-      <section class="project-example hide">
-        <div class="container">
-          <div class="project-example__text-box">
-            <h2 class="project-example__title">
+      <section class="project-example">
+        <div class="project-example__title-wrapper">
+          <div class="container">
+            <h2 class="project-example__title">Галерея проектов</h2>
+          </div>
+        </div>
+
+        <div class="project-example__gallery-slider">
+          <div
+            class="project-example__gallery-slide project-example__gallery-slide--first-project project-example__gallery-slide--active"
+          ></div>
+          <div
+            class="project-example__gallery-slide project-example__gallery-slide--second-project"
+          ></div>
+          <div
+            class="project-example__gallery-slide project-example__gallery-slide--third-project"
+          ></div>
+          <div
+            class="project-example__gallery-slide project-example__gallery-slide--fourth-project"
+          ></div>
+        </div>
+
+        <div class="project-example__controls-wrapper">
+          <div class="container">
+            <div class="project-example__controls">
+              <button
+                class="project-example__arrow project-example__arrow-left"
+              >
+                <img
+                  class="project-example__arrow-picture"
+                  src="./resources/images/controls/arrow-left.png"
+                  alt="стрелочка влево"
+                />
+              </button>
+              <button
+                class="project-example__arrow project-example__arrow-right"
+              >
+                <img
+                  class="project-example__arrow-picture"
+                  src="./resources/images/controls/arrow-left.png"
+                  alt="стрелочка вправо"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-example__text-box">
+          <div class="container">
+            <h2 class="project-example__description">
               Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж
             </h2>
           </div>
@@ -278,5 +324,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="./scripts/gallery.js"></script>
   </body>
 </html>
