@@ -3,9 +3,11 @@
   padding-bottom: 150px;
 }
 
-.reviews__rows + .reviews__rows {
-  margin-top: 75px;
+.reviews__rows {
+  row-gap: 75px;
 }
+
+
 
 .reviews__title {
   font-size: 18px;
@@ -29,7 +31,12 @@
   margin-top: 35px;
 }
 
-.col--unique {
+/* .col--unique {
+  width: auto;
+  max-width: 885px;
+} */
+
+.reviews__col:last-child:nth-child(2n+1) {
   width: auto;
   max-width: 885px;
 }
@@ -51,6 +58,10 @@
 }
 
 @media (max-width: 767px) {
+
+  .reviews__rows {
+  row-gap: 0;
+}
   .rows {
     flex-direction: column;
     flex-wrap: wrap;

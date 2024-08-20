@@ -47,6 +47,7 @@ h3 {
 .rows {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .col {
