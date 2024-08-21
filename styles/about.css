@@ -25,6 +25,8 @@
 }
 
 .about__btn {
+  display: inline-block;
+  text-decoration: none;
   border: 1px solid transparent;
   background: #ad1818;
   border-radius: 5px;
