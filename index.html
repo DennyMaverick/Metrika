@@ -178,7 +178,40 @@
               <h3 class="serviсes-card__title">Комплектация</h3>
             </li>
           </ul>
-          <button class="services__btn">Заказать услугу</button>
+          <button class="js-btn services__btn">Заказать услугу</button>
+        </div>
+        <div class="js-popup services__popup services-popup">
+          <div class="js-popup__content services-popup__content">
+            <button
+              class="js-popup__close-btn services-popup__close-btn"
+            ></button>
+            <h2 class="services-popup__title">Заказать услугу</h2>
+            <p class="services-popup__description">
+              Заполните форму, мы свяжемся с вами в течение суток
+            </p>
+            <form class="services-popup__form services-popup-form">
+              <div class="services-popup-form__input-wrapper">
+                <input
+                  class="services-popup-form__input"
+                  type="text"
+                  placeholder="Имя"
+                />
+                <input
+                  class="services-popup-form__input"
+                  type="mail"
+                  placeholder="Электронная почта"
+                />
+                <input
+                  class="services-popup-form__input"
+                  type="text"
+                  placeholder="Номер телефона"
+                />
+              </div>
+              <button class="services-popup-form__btn" type="submit">
+                Отправить
+              </button>
+            </form>
+          </div>
         </div>
       </section>
       <section class="reviews">
@@ -356,5 +389,6 @@
     </footer>
 
     <script src="./scripts/gallery.js"></script>
+    <script src="./scripts/popup.js"></script>
   </body>
 </html>
