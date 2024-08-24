@@ -21,8 +21,15 @@
 }
 
 .header__inner {
+  position: relative;
   display: flex;
   justify-content: space-between;
+}
+
+.header__burger {
+  position: absolute;
+  right: 20px;
+  top: 20px;
 }
 
 .nav-menu__link {
@@ -68,4 +75,10 @@
 
 .nav-menu__link + .nav-menu__link {
   margin-left: 53px;
+}
+
+@media (max-width: 767px) {
+  .header__nav-menu {
+    display: none;
+  }
 }

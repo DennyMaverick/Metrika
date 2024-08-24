@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <header class="header hide">
+    <header class="header">
       <div class="header__inner container">
         <div class="header__logo">
           <img src="./resources/images/logo/logo.png" alt="logo" />
@@ -30,6 +30,36 @@
           <a class="nav-menu__link" href="#services">Услуги</a>
           <a class="nav-menu__link" href="#contacts">Контакты</a>
         </nav>
+        <button class="header__burger js-burger-btn burger">
+          <span class="burger__line burger__line--long"></span>
+          <span class="burger__line burger__line--short"></span>
+        </button>
+        <div class="js-burger-mobile-menu burger-mobile-menu">
+          <div class="js-burger__content burger-mobile-menu__content">
+            <div class="burger-mobile-menu__logo">
+              <img src="./resources/images/logo/logo.png" alt="logo" />
+            </div>
+            <button class="js-burger__close-btn burger-mobile-menu__close-btn">
+              <img
+                class="burger__close-image"
+                src="./resources/images/icons/close-btn.svg"
+              />
+            </button>
+            <nav class="burger-mobile-menu__nav-menu burger-mobile-menu-nav-menu">
+              <a class="js-burger-mobile-menu-nav-menu__link burger-mobile-menu-nav-menu__link" href="#about">О нас</a>
+              <a class="js-burger-mobile-menu-nav-menu__link burger-mobile-menu-nav-menu__link" href="#projects">Проекты</a>
+              <a class="js-burger-mobile-menu-nav-menu__link burger-mobile-menu-nav-menu__link" href="#services">Услуги</a>
+              <a class="js-burger-mobile-menu-nav-menu__link burger-mobile-menu-nav-menu__link" href="#contacts">Контакты</a>
+            </nav>
+            <div class="burger-mobile-menu__contacts burger-mobile-menu-contacts">
+              <p class="burger-mobile-menu-contacts__title">
+                Для связи:
+              </p>
+              <a class="burger-mobile-menu-contacts__phone" href="tel:79358954535">+7 935  895-45-35</a>
+              <a class="burger-mobile-menu-contacts__email" href="mailto:hello@mail.com">hello@mail.com</a>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
     <main class="main">
@@ -389,6 +419,6 @@
     </footer>
 
     <script src="./scripts/gallery.js"></script>
-    <script src="./scripts/popup.js"></script>
+    <script src="./scripts/script.js"></script>
   </body>
 </html>
