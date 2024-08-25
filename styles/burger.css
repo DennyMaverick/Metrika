@@ -112,8 +112,19 @@
   width: 30px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .burger {
     display: flex;
   }
+}
+
+@media (max-width: 767px) {
+
+  .burger__line--long {
+  width: 38px;
+}
+
+.burger__line--short {
+  width: 24px;
+}
 }
