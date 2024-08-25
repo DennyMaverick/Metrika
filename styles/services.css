@@ -78,6 +78,7 @@
   left: 0;
   top: 0;
   padding: 20px;
+  padding-top: 87px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -231,6 +232,7 @@
 
   .services__popup {
     padding: 7px;
+    padding-top: 80px;
   }
 
   .services-popup__content {
