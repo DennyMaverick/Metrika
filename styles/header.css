@@ -23,13 +23,14 @@
 .header__inner {
   position: relative;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
 .header__burger {
   position: absolute;
   right: 20px;
-  top: 20px;
+  top: 8px;
 }
 
 .nav-menu__link {
