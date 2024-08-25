@@ -39,6 +39,10 @@ button {
   padding: 0;
 }
 
+button:focus {
+  outline: none;
+}
+
 h1,
 h2,
 h3 {
