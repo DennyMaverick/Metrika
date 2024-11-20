@@ -8,6 +8,7 @@ const popupNode = document.querySelector('.js-popup');
 const btnOpenNode = document.querySelector('.js-btn');
 const popupContentNode = document.querySelector('.js-popup__content');
 const btnCloseNode = document.querySelector('.js-popup__close-btn');
+const copyrightYearElem = document.getElementById('copyrightYear');
 
 const BURGER_OPENED_CLASSNAME = 'burger_open';
 // const BURGER_BTN_OPENED_CLASSNAME = 'burger-btn_open';
@@ -72,3 +73,5 @@ burgerMobileLinks.forEach(link => {
     closeBurgerMenu();
   });
 });
+
+copyrightYearElem.innerHTML = new Date().getFullYear();
